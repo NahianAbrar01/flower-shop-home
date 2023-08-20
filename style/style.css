@@ -1,0 +1,62 @@
+/* common shared styles */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+}
+
+/* header related styles */
+.header {
+    background-color: #E554731A;
+}
+
+.banner {
+    padding: 20px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 800px;
+}
+
+.banner .intro-pic {
+    width: 640px;
+    padding: 135px 150px 0px 0px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#shopnow{
+    margin-top: 30px;
+}
