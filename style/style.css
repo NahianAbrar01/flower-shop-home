@@ -57,6 +57,73 @@ body {
     margin-bottom: 0px;
 }
 
-#shopnow{
+#shopnow {
     margin-top: 30px;
+}
+
+/* main section styles */
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+/* Featured Section Styles */
+.featured {
+    text-align: center;
+}
+
+.f-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.f-description {
+    margin-top: 30px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Flower Gallery */
+.gallery-items {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.f-gallery>img {
+    border-radius: 300px 300px 0px 0px;
+    padding: 100px 75px 0px 75px;
+    width: 300px;
+    height: 400px;
+}
+
+.f-g1 {
+    background: rgba(167, 33, 98, 0.15);
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.f-g2 {
+    background: rgba(5, 151, 160, 0.15);
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.f-g3 {
+    background: rgba(71, 125, 17, 0.15);
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.f-caption {
+    margin-top: 30px;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
 }
