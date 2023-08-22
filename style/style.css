@@ -192,6 +192,47 @@ main {
     margin-bottom: 0px;
 }
 
-#signup{
+#signup {
     margin-top: 40px;
+}
+
+/* Instagram Related Styles */
+.instagram {
+    max-width: 1400px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.insta-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 130px;
+}
+
+.insta-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.insta-photo-container {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+.insta-photo {
+    width: 320px;
+}
+
+/* Latest Deals Related Styles */
+.latest-deals{
+    max-width: 1400px;
+    margin: 0 auto;
+    align-items: center;
+    background-image: url('../Flower_Asset/re');
 }
