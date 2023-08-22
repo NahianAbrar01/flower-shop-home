@@ -263,6 +263,10 @@ main {
     padding-bottom: 130px;
 }
 
+input{
+    color: white;
+}
+
 #email {
     width: 700px;
     height: 64px;
